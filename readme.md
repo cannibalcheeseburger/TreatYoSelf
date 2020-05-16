@@ -46,4 +46,20 @@ python <scriptname.py> <arguments>
 
 ## Movie 
 
-This script takes the title of movie or tv series you want to search on all of streaming platforms provided in script()
+This script takes the title of movie or tv series you want to search on all of streaming platforms provided in the script `movie.py` .
+
+I have added Netflix ,Amazon prime and Hotstar but you can add more.
+
+It is pretty simple script, you just need to pass the title as argument.
+
+<b>Important:</b> You must be logged in on these services in your browser for it to work.
+
+#### Usage
+
+```
+python Movie.py <optional arguments> <Title of Movie/Tv series> 
+```
+#### Example
+```
+python Movie.py Westworld
+```
