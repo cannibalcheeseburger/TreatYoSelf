@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo openvpn --config "/home/cannibalcheeseburger/Downloads/vpn/VPNBook.com-OpenVPN-US2/vpnbook-us2-tcp443.ovpn" --auth-user-pass /home/cannibalcheeseburger/Downloads/vpn/VPNBook.com-OpenVPN-US2/cred.txt
