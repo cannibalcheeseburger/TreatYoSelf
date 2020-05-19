@@ -13,6 +13,7 @@ For now it only contains .bat files (i.e. for windows only) . I might add shell 
 
 ## Automation Scripts
  
+ - [VPN Connect](#VPN)
  - [Movie/TV search](#Movie)
 
 ## Installation
@@ -43,10 +44,22 @@ python <scriptname.py> <arguments>
  <batchfilename> <arguments>
  ```
  <b>Important:</b> You need to change absolute address of the scripts in your batch files. e.g.:
+
 ```
 @python "<Change this address to absolute path for scripts>" %*
 @pause
 ```
+
+### Adding folder to PATH
+
+- Linux :
+
+    1. Open `.bashrc` present in your  `~/` home directory.
+    2. Add the following line to end of file.
+        ```
+        export PATH = "..../TreatYoSelf/Lin:$PATH"
+        ```  
+    3. Save the file.
 
 ## Movie 
 
